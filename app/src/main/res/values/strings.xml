@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">CS639SpringHW1</string>
+
     <string name="bird">Bird</string>
     <string name="cats">Cats</string>
     <string name="dog">Dog</string>
 
+    <string name="bird_fact">The oldest bird was known as an Archaeopteryx and lived about 150 million years ago. It was the size of a raven, was covered with feathers, and had wings.</string>
+    <string name="cat_fact">Kittens have about 26 temporary teeth, which they lose when they are about 6 months old.</string>
+    <string name="dog_fact">The Labrador Retriever has been on the...top 10 most popular breeds list for 25 consecutive years—longer than any other breed.</string>
+
+    <string name="toast_message">You have to select an animal first!</string>
 </resources>
