@@ -13,6 +13,7 @@ App Requirements:
 - If no image is selected, present the user with a Toast message letting them know that they have to select an image before choosing a color.
 
 Grading Distribution:
+
 70% = Completion. An app that meets all of the above requirements will be considered code complete
 
 10% = Code Clarity. Make sure your code is easy to follow and understand.
