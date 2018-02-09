@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- Bird/Cat/Dog Radio Group-->
+
+    <RadioGroup
+        android:id = "@+id/animal_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/color_picker">
+
+        <!-- Bird/Cat/Dog Button-->
+
+        <RadioButton android:id="@+id/bird_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/bird"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/cat_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/cat"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/dog"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+    <!-- Color Picker Radio Group-->
+
+    <RadioGroup
+        android:id = "@+id/color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <!-- Color Picker Radio Buttons-->
+
+        <RadioButton
+            android:id="@+id/red-color"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/red"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/blue-color"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/blue"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/green-color"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/green"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/purple-color"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/purple"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/yellow-color"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/yellow"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+    <!-- Bird/Cat/Dog Fragment Description-->
+
+    <TextView
+        android:id="@+id/description_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/animal_group"
+        android:layout_toEndOf="@id/animal_group"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/color_picker"
+        android:layout_alignParentTop="true">
+
+
+
+
+
+    </TextView>
+
+
+</RelativeLayout>
