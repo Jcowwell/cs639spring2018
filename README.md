@@ -14,8 +14,11 @@ App Requirements:
 
 Grading Distribution:
 70% = Completion. An app that meets all of the above requirements will be considered code complete
+
 10% = Code Clarity. Make sure your code is easy to follow and understand.
+
 10% = Documentation/Comments. Provide occasional documentation to ensure that you fully grasp what your code is doing
+
 10% = Efficiency/Number of Lines. The less lines of code you use, the better. Find a balance between readability and being concise.
 
 Helpful Hints:
