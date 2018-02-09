@@ -77,28 +77,27 @@ public class MainActivity extends AppCompatActivity {
             case R.id.red_color:
                 if (checked)
                     System.out.println("Red");
-                //Show Text_View
-                show(findViewById(R.id.bird_text));
+                    changeColor(R.color.red);
                 break;
             case R.id.blue_color:
                 if (checked)
                     System.out.println("Blue");
-                show(findViewById(R.id.cat_text));
+                    changeColor(R.color.blue);
                 break;
             case R.id.green_color:
                 if (checked)
                     System.out.println("Green");
-                show(findViewById(R.id.dog_text));
+                    changeColor(R.color.green);
                 break;
             case R.id.purple_color:
                 if (checked)
                     System.out.println("Purple");
-                show(findViewById(R.id.dog_text));
+                    changeColor(R.color.purple);
                 break;
             case R.id.yellow_color:
                 if (checked)
                     System.out.println("Yellow");
-                show(findViewById(R.id.dog_text));
+                    changeColor(R.color.yellow);
                 break;
         }
     System.out.println("Success");
@@ -122,5 +121,6 @@ public class MainActivity extends AppCompatActivity {
     public void changeColor(int color) {
         animalButton.getBackground().setColorFilter(getResources().getColor(color),
                 PorterDuff.Mode.SRC_ATOP);
+
     }
 }
