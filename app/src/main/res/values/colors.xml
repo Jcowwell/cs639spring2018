@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Radio Button Colors -->
+    <color name="red">#b43f3f</color>
+    <color name="blue">#3f51b3</color>
+    <color name="green">#32931d</color>
+    <color name="purple">#4b0964</color>
+    <color name="yellow">#dcbe11</color>
+</resources>

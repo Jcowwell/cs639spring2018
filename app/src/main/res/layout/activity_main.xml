@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- animal item listview -->
+    <ListView
+        android:id="@+id/animal_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fact_edit_text_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <!-- field to enter new fact to add to animal -->
+    <EditText
+        android:id="@+id/fact_edit_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_toStartOf="@+id/button"
+        android:hint="@string/type_fact"
+        android:inputType="text"
+        android:imeOptions="actionDone">
+    </EditText>
+
+
+    <!-- button to add fact to animal -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fact_edit_text_view"
+        android:layout_alignBottom="@+id/fact_edit_text_view"
+        android:layout_alignParentEnd="true"
+        android:text="@string/add_fact" />
+
+    <!-- color picker layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+        <View
+            android:id="@+id/red"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/red"
+            android:button="@null" />
+
+        <View
+            android:id="@+id/blue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/blue"
+            android:button="@null"/>
+
+        <View
+            android:id="@+id/green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/green"
+            android:button="@null"/>
+
+        <View
+            android:id="@+id/purple"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/purple"
+            android:button="@null"
+            />
+
+        <View
+            android:id="@+id/yellow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/yellow"
+            android:button="@null"/>
+    </LinearLayout>
+
+</RelativeLayout>

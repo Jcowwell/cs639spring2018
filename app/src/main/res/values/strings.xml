@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CS639SpringHW1</string>
+
+    <string name="bird">Bird</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="bug">Bug</string>
+    <string name="duck">Duck</string>
+    <string name="fish">Fish</string>
+    <string name="frog">Frog</string>
+    <string name="monkey">Monkey</string>
+    <string name="octopus">Octopus</string>
+    <string name="snail">Snail</string>
+
+    <string name="bird_fact">The oldest bird was known as an Archaeopteryx and lived about 150 million years ago. It was the size of a raven, was covered with feathers, and had wings.</string>
+    <string name="cat_fact">Kittens have about 26 temporary teeth, which they lose when they are about 6 months old.</string>
+    <string name="dog_fact">The Labrador Retriever has been on the...top 10 most popular breeds list for 25 consecutive years—longer than any other breed.</string>
+
+    <string name="edit_txt_null">Please enter the animal fact</string>
+    <string name="next_fact">Next Fact</string>
+    <string name="delete_fact">Delete Fact</string>
+    <string name="test_fact">Coding is a Pain in the asssss</string>
+    <string name="throwaway_description">Throwaway</string>
+
+    <string name="type_fact">Enter a fact to add to an animal!</string>
+    <string name="add_fact">Add Fact</string>
+
+    <!--Alerts for Float-->
+    <string name="delete_fact_alert">Fact Deleted</string>
+    <string name="add_fact_alert">Fact was Added</string>
+    <string name="new_fact_alert">New Fact added</string>
+    <string name="item_deleted">Item Delete Success</string>
+    <string name="delete_fails">Woah There is only one Fact left!</string>
+    <string name="enter_fact">Please Enter Fact to Add!</string>
+    <string name="select_animal">Please Select Animal</string>
+    <string name="fact_add_success">Fact Added</string>
+
+</resources>

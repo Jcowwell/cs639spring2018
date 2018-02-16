@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Akshay J Patil on 15/2/18 6:40 PM
+  ~ Copyright (c) 2018. All Rights Reserved.
+  ~
+  ~ Last Modified 15/2/18 5:57 PM
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Animal Image -->
+    <ImageView
+        android:id="@+id/animal_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/delete_fact"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/throwaway_description"
+        android:src="@drawable/bird" />
+
+    <!-- Animal Fact -->
+    <TextView
+        android:id="@+id/animal_fact_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/animal_img"
+        android:gravity="center_vertical"
+        android:text="@string/test_fact" />
+
+    <!-- Next Fact Button -->
+    <Button
+        android:id="@+id/next_fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/next_fact"
+        android:layout_alignParentEnd="true"
+        android:background="@color/green"
+        android:focusableInTouchMode="false"
+        android:focusable="false"/>
+
+    <!-- Delete Fact Button -->
+    <Button
+        android:id="@+id/delete_fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/delete_fact"
+        android:layout_below="@+id/next_fact"
+        android:layout_alignParentEnd="true"
+        android:background="@color/red"
+        android:focusableInTouchMode="false"
+        android:focusable="false"/>
+
+</RelativeLayout>
